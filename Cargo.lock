@@ -1,0 +1,14 @@
+[root]
+name = "future-seg-fault"
+version = "0.1.0"
+dependencies = [
+ "futures 0.1.13 (git+https://github.com/leodasvacas/futures-rs?branch=task-rewrite-benchmark)",
+]
+
+[[package]]
+name = "futures"
+version = "0.1.13"
+source = "git+https://github.com/leodasvacas/futures-rs?branch=task-rewrite-benchmark#7eeee658c2a7c3059df506ec7f6dd115acdad2dc"
+
+[metadata]
+"checksum futures 0.1.13 (git+https://github.com/leodasvacas/futures-rs?branch=task-rewrite-benchmark)" = "<none>"

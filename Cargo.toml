@@ -1,0 +1,7 @@
+[package]
+name = "future-seg-fault"
+version = "0.1.0"
+authors = ["leonardo.yvens <leoyvens@gmail.com>"]
+
+[dependencies]
+futures = { git = "https://github.com/leodasvacas/futures-rs", branch = "task-rewrite-benchmark" }
